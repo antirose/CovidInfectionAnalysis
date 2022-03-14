@@ -1,7 +1,7 @@
 # CovidInfectionAnalysis
 A collaborative project looking into likelihood of infection between vaccinated and unvaccinated in the United States.
 
-# Project 1 Deliverable Presentation
+# Segment 1 Deliverable Presentation
 
 Topic: What is the likelihood of being infected by Covid-19? How is infection affected by factors such as vaccination rates, gender, and ethnicity?
 
