@@ -1,0 +1,15 @@
+Database Resources Outline.txt
+
+Links direct to csv files provided by their respective sources. 
+
+# vaccination rates https://github.com/govex/COVID-19/blob/master/data_tables/vaccine_data/us_data/time_series/people_vaccinated_us_timeline.csv
+
+# ethnicities 
+https://covidtracking.com/data
+https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-by-Race-and-Hispanic-O/ks3g-spdg
+https://data.cdc.gov/NCHS/Provisional-COVID-19-Deaths-Focus-on-Ages-0-18-Yea/nr4s-juj3
+
+# gender 
+https://data.unwomen.org/rga
+https://globalhealth5050.org/the-sex-gender-and-covid-19-project/the-data-tracker/?explore=country&country=USA#search
+
