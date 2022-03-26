@@ -1,0 +1,9 @@
+As the square role, Tonirose created the repository and oversaw pull requests. In preparation for the project, she organized notes during group meetings and set up agendas for the next session to ascertain the group was on track to meet the goals outlined in the module 20 rubric.
+
+Utsav took charge of the triangle role and made a mockup of the machine learning model. 
+
+After finalizing the tools we will use as a group, India drafted a detailed outline of the technologies we will use in the project.
+
+The circle role was fulfilled by Elsa, who constructed the mockup of a database from csv files we discovered during our data exploration phase.
+
+Research for relevant data files were done individually, but were discussed and chosen as a group. Utsav and Tonirose updated the README.md to express the content and intent of our project. Everyone created their respective branches where they committed changes. 

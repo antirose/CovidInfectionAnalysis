@@ -1,8 +1,17 @@
 # CovidInfectionAnalysis
 A collaborative project looking into likelihood of infection between vaccinated and unvaccinated in the United States.
 
+# Segment 1 Deliverable Presentation
 
+Topic: What is the likelihood of being infected by Covid-19? How is infection affected by factors such as vaccination rates, gender, and ethnicity?
 
+Purpose: It is important to analyze future trends following the Covid-19 pandemic to understand the prevalence of infection within the American population.
+
+Data Source: We gathered data from reliable organizations such as Johns Hopkins University and the Center for Disease Control (CDC) which provide csv files on their findings.
+
+Questions to be answered: Are certain populations more likely to be infected than others? How do these factors affect the other? What other factors should be considered in identifying risks of infection?
+
+Communication Protocols: Our group name is Endless Knot. The members exchange information on Slack and document notes on Google Docs. Group meetings are held virtually on Zoom. We collaborate on our codes through GitHub, which include our repository (CovidInfectionAnalysis), branches, commits, and pull requests. 
 
 # Machine Learning Flowchart
 •	Data Wrangling: 
@@ -31,10 +40,3 @@ we use:
 •	logistic regression model:  a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
     SVM support vector machine : SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
 •	Evaluation metrics:
-
-
-	-Data Wrangling: it is the process to gather, select, clean, structure raw data into the desired format for better decision.
-    -Data imputation: It is the substitution of estimated values for missing or inconsistent data items. 
-    In our case
-    -we will use SUPERVISED LEARNING: It is an approach to create AI, program is given labeled input data.
-    -We will focus on REGRESSION MODEL of supervised learning because the data is used to make predictions in a continuous form. 
