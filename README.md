@@ -43,7 +43,6 @@ we use:
 •	Confusion matrix
 •	SMOTE/SMOTTEEN Oversampling
 
-# Technology
 # Plotly - Interactive Visualization
 
 Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. What was created were maps to distinguish certain elements in the U.S. One map highlights the highest cases based on gender in the U.S in certain states. The next map highlights all data based on fully vaccinated people to compare each state based on the the amount of vaccinations given.
