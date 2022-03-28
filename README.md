@@ -34,13 +34,16 @@ Find the null values- use dropna()
 since our data is labeled, we use
 •	Supervised learning 
 we use: 
-•	Decision tree using sklearn.tree.plot_tree
-•	linear regression model
-•	Evaluation metrics:
+•	OLS model- Ordinary Least Squares (OLS): can predict an output value with an acceptable error margin, based on a set of known input parameters. 
+    BalancedRandomForestClassifier: A balanced random forest randomly under-samples each boostrap sample to balance it. 
+    EasyEnsembleClassifier: creating balanced samples of the training dataset by selecting all examples from the minority class and a subset from the majority class.
+•	logistic regression model:  a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
+    SVM support vector machine : SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+
 •	Confusion matrix
 •	SMOTE/SMOTTEEN Oversampling
 
+# Technology
 # Plotly - Interactive Visualization
 
-Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. What was created were maps to distinguish	certain elements in the U.S. One map, it highlights the highest cases based on gender in the U.S in certain states. The next maps highlights all data based on fully vaccinated people to compare each state based on the the amount of vaccinations given.
-
+Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. What was created were maps to distinguish certain elements in the U.S. One map highlights the highest cases based on gender in the U.S in certain states. The next map highlights all data based on fully vaccinated people to compare each state based on the the amount of vaccinations given.
