@@ -39,3 +39,8 @@ we use:
 •	Evaluation metrics:
 •	Confusion matrix
 •	SMOTE/SMOTTEEN Oversampling
+
+# Plotly - Interactive Visualization
+
+Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. What was created were maps to distinguish	certain elements in the U.S. One map, it highlights the highest cases based on gender in the U.S in certain states. The next maps highlights all data based on fully vaccinated people to compare each state based on the the amount of vaccinations given.
+
