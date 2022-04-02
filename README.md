@@ -14,9 +14,7 @@ Questions to be answered: Are certain populations more likely to be infected tha
 Communication Protocols: Our group name is Endless Knot. The members exchange information on Slack and document notes on Google Docs. Group meetings are held virtually on Zoom. We collaborate on our codes through GitHub, which include our repository (CovidInfectionAnalysis), branches, commits, and pull requests. 
 
 # Machine Learning Flowchart
-•	Data Wrangling: 
-Checkout data quality, sorting, filtering using PYTHON. 
-•	working with missing data, outliers, reshaping data, calculating
+•	•	Data Wrangling: We checkedout the data quality, sorting, filtering using PYTHON. We cleaned by missing data, outliers, reshaping data, calculating. We removed many unnecessary columns. Find the null values- use dropna() • Convert strings to numbers.
 
 Data Preprocessing
 •	Preparing data for machine learning 
@@ -25,23 +23,55 @@ Data Preprocessing
 Steps to run ML algorithm
 •	Read dataset
 •	Activate ML environment in jupyter notebook mlev
-•	Data transformation
-Find the null values- use dropna()
+
+Data transformation
+
 •	Convert strings to numbers using pd.get_dummies
 •	Split the data into training and testing 
+•	Split the data into training and testing using StandardScaler() and 
+ X_train_scaled = X_scaler.transform(X_train)
+ X_test_scaled = X_scaler.transform(X_test)vid
 
-•	Try different Machine learning algorithm:
-since our data is labeled, we use
+
+
+•	• We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning we use: 
+
 •	Supervised learning 
 we use: 
 •	OLS model- Ordinary Least Squares (OLS): can predict an output value with an acceptable error margin, based on a set of known input parameters. 
-    BalancedRandomForestClassifier: A balanced random forest randomly under-samples each boostrap sample to balance it. 
-    EasyEnsembleClassifier: creating balanced samples of the training dataset by selecting all examples from the minority class and a subset from the majority class.
-•	logistic regression model:  a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
-    SVM support vector machine : SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+<img width="758" alt="Screen Shot 2022-04-02 at 12 17 49 AM" src="https://user-images.githubusercontent.com/91306158/161373275-b7a1e8b2-3695-45c0-9f47-286dd385e76f.png">
+ 
+ linear regression: coeffiecient of determinations : 0.57037
+<img width="643" alt="Screen Shot 2022-04-02 at 12 20 10 AM" src="https://user-images.githubusercontent.com/91306158/161373302-8b7c48b5-29f2-4258-86ce-4a1af343d50c.png">
 
-•	Confusion matrix
-•	SMOTE/SMOTTEEN Oversampling
+•	logistic regression model:  a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
+<img width="456" alt="Screen Shot 2022-04-02 at 12 19 30 AM" src="https://user-images.githubusercontent.com/91306158/161373319-f3549db7-70b1-4667-adea-a905d87ee0b9.png">
+<img width="797" alt="Screen Shot 2022-04-02 at 12 51 18 AM" src="https://user-images.githubusercontent.com/91306158/161373338-9ac6eb4b-7dc1-4b6d-809e-9a9092e58d42.png">
+
+ SVM support vector machine : SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+
+<img width="228" alt="Screen Shot 2022-04-02 at 12 26 41 AM" src="https://user-images.githubusercontent.com/91306158/161373350-4c9d81d2-6dac-4573-ab2e-608e800f2f2d.png">
+
+TIME SERIES FOR MACHINE LEARNING MODEL:
+An ARIMA model is a class of statistical models for analyzing and forecasting time series data. ARIMA stands for Autoregressive Integrated Moving Average. It is a generalization of the simpler Autoregressive Moving Average and adds the notion of integration.
+
+<img width="479" alt="Screen Shot 2022-04-01 at 11 55 55 PM" src="https://user-images.githubusercontent.com/91306158/161373394-66641e56-59fb-4809-bd5f-46dce6bb444e.png">
+
+
+The below summarizes the coefficient values used as well as the skill of the fit on the on the in-sample observations. The ARIMA model used is ARIMA(5, 1, 0)
+<img width="1013" alt="Screen Shot 2022-04-01 at 11 57 02 PM" src="https://user-images.githubusercontent.com/91306158/161373439-6f12372c-e5b0-499c-aaad-9de68d69418f.png">
+
+Next, we get a density plot of the residual error values, suggesting the errors are Gaussian, but may not be centered on zero. The distribution of the residual errors is displayed. The results show that indeed there is a bias in the prediction (a non-zero mean in the residuals).
+
+<img width="238" alt="Screen Shot 2022-04-02 at 12 00 26 AM" src="https://user-images.githubusercontent.com/91306158/161373467-d5bcc739-5cd4-47fb-8da3-2aa1b950d26d.png">
+
+<img width="493" alt="Screen Shot 2022-04-01 at 11 59 56 PM" src="https://user-images.githubusercontent.com/91306158/161373490-ccb2bbea-d05d-4f99-a34a-fb428b80eb74.png">
+
+The graph below shows that A line plot is created showing the expected values (blue) compared to the rolling forecast predictions (red). We can see the values show some trend and are in the correct scale.
+
+<img width="476" alt="Screen Shot 2022-04-02 at 12 09 01 AM" src="https://user-images.githubusercontent.com/91306158/161373514-28021b1c-d273-4bc1-899b-f61d7b4ba165.png">
+
+
 
 # Plotly - Interactive Visualization
 
