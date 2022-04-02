@@ -18,7 +18,7 @@ Communication Protocols: Our group name is Endless Knot. The members exchange in
 
 # Data Preprocessing
 •	Preparing data for machine learning 
-•	Importing libraries: pandas, NumPy, seaborn, matplotlib, sklearn.
+•	Importing libraries: pandas, NumPy, seaborn, matplotlib, sklearn, train_test_split, r2_score, mean_squared_error, sklearn.datasets, statsmodels.tsa.arima.model
 
 # Steps to run ML algorithm
 •	Read dataset
@@ -27,14 +27,14 @@ Communication Protocols: Our group name is Endless Knot. The members exchange in
 # Data transformation
 
 •	Convert strings to numbers using pd.get_dummies
-•	Split the data into training and testing 
+•	Split the data into training and testing:  
 •	Split the data into training and testing using StandardScaler() and 
  X_train_scaled = X_scaler.transform(X_train)
- X_test_scaled = X_scaler.transform(X_test)vid
+ X_test_scaled = X_scaler.transform(X_test)
 
 
 
-•	We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning we use: 
+•	We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning. We will focus on Regression models because we are using datae to make predictions in a contunuous form.  
 
 # Supervised learning and Models: 
 we used several models:
