@@ -14,17 +14,17 @@ Questions to be answered: Are certain populations more likely to be infected tha
 Communication Protocols: Our group name is Endless Knot. The members exchange information on Slack and document notes on Google Docs. Group meetings are held virtually on Zoom. We collaborate on our codes through GitHub, which include our repository (CovidInfectionAnalysis), branches, commits, and pull requests. 
 
 # Machine Learning Flowchart
-•	•	Data Wrangling: We checkedout the data quality, sorting, filtering using PYTHON. We cleaned by missing data, outliers, reshaping data, calculating. We removed many unnecessary columns. Find the null values- use dropna() • Convert strings to numbers.
+•	Data Wrangling: We checkedout the data quality, sorting, filtering using PYTHON. We cleaned by missing data, outliers, reshaping data, calculating. We removed many unnecessary columns. Find the null values- use dropna() • Convert strings to numbers.
 
-Data Preprocessing
+# Data Preprocessing
 •	Preparing data for machine learning 
 •	Importing libraries: pandas, NumPy, seaborn, matplotlib, sklearn.
 
-Steps to run ML algorithm
+# Steps to run ML algorithm
 •	Read dataset
 •	Activate ML environment in jupyter notebook mlev
 
-Data transformation
+# Data transformation
 
 •	Convert strings to numbers using pd.get_dummies
 •	Split the data into training and testing 
@@ -34,25 +34,35 @@ Data transformation
 
 
 
-•	• We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning we use: 
+•	We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning we use: 
 
-•	Supervised learning 
-we use: 
-•	OLS model- Ordinary Least Squares (OLS): can predict an output value with an acceptable error margin, based on a set of known input parameters. 
+# Supervised learning and Models: 
+we used several models:
+* OLS model- Ordinary Least Squares (OLS)
+* Linear regression
+* Logistic regression model
+* SVM support vector machine 
+* ARIMA for Time series model
+
+* OLS model- Ordinary Least Squares (OLS): can predict an output value with an acceptable error margin, based on a set of known input parameters. 
+
 <img width="758" alt="Screen Shot 2022-04-02 at 12 17 49 AM" src="https://user-images.githubusercontent.com/91306158/161373275-b7a1e8b2-3695-45c0-9f47-286dd385e76f.png">
  
- linear regression: coeffiecient of determinations : 0.57037
+* Linear regression: 
+ coeffiecient of determinations : 0.57037
 <img width="643" alt="Screen Shot 2022-04-02 at 12 20 10 AM" src="https://user-images.githubusercontent.com/91306158/161373302-8b7c48b5-29f2-4258-86ce-4a1af343d50c.png">
 
-•	logistic regression model:  a statistical model that in its basic form uses a logistic function to model a binary dependent variable.
+*  Logistic regression model:
+A statistical model that in its basic form uses a logistic function to model a binary dependent variable.
 <img width="456" alt="Screen Shot 2022-04-02 at 12 19 30 AM" src="https://user-images.githubusercontent.com/91306158/161373319-f3549db7-70b1-4667-adea-a905d87ee0b9.png">
 <img width="797" alt="Screen Shot 2022-04-02 at 12 51 18 AM" src="https://user-images.githubusercontent.com/91306158/161373338-9ac6eb4b-7dc1-4b6d-809e-9a9092e58d42.png">
 
- SVM support vector machine : SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+ * SVM support vector machine :
+ SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
 
 <img width="228" alt="Screen Shot 2022-04-02 at 12 26 41 AM" src="https://user-images.githubusercontent.com/91306158/161373350-4c9d81d2-6dac-4573-ab2e-608e800f2f2d.png">
 
-TIME SERIES FOR MACHINE LEARNING MODEL:
+# Time Series for Machine Learning Model :
 An ARIMA model is a class of statistical models for analyzing and forecasting time series data. ARIMA stands for Autoregressive Integrated Moving Average. It is a generalization of the simpler Autoregressive Moving Average and adds the notion of integration.
 
 <img width="479" alt="Screen Shot 2022-04-01 at 11 55 55 PM" src="https://user-images.githubusercontent.com/91306158/161373394-66641e56-59fb-4809-bd5f-46dce6bb444e.png">
