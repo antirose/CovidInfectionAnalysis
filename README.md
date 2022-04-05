@@ -40,7 +40,6 @@ Communication Protocols: Our group name is Endless Knot. The members exchange in
 we used several models:
 * OLS model- Ordinary Least Squares (OLS)
 * Linear regression
-* Logistic regression model
 * SVM support vector machine 
 * ARIMA for Time series model
 
@@ -52,10 +51,6 @@ we used several models:
  coeffiecient of determinations : 0.57037
 <img width="643" alt="Screen Shot 2022-04-02 at 12 20 10 AM" src="https://user-images.githubusercontent.com/91306158/161373302-8b7c48b5-29f2-4258-86ce-4a1af343d50c.png">
 
-*  Logistic regression model:
-A statistical model that in its basic form uses a logistic function to model a binary dependent variable.
-<img width="456" alt="Screen Shot 2022-04-02 at 12 19 30 AM" src="https://user-images.githubusercontent.com/91306158/161373319-f3549db7-70b1-4667-adea-a905d87ee0b9.png">
-<img width="797" alt="Screen Shot 2022-04-02 at 12 51 18 AM" src="https://user-images.githubusercontent.com/91306158/161373338-9ac6eb4b-7dc1-4b6d-809e-9a9092e58d42.png">
 
  * SVM support vector machine :
  SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
