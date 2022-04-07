@@ -77,6 +77,11 @@ The graph below shows that A line plot is created showing the expected values (b
 
 
 # Plotly - Interactive Visualization
+Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. The two factors that were visualized through maps were gender infections and total percent of vaccinations. Two maps were created to show the states with the highest number of infections between men and women. For the state of California, it had the highest rate of infections for both men and women. Men were also more likely to get infected in Texas than women. In comparison, men and women likely to get infected equally in the states with the highest amount of cases.
 
-Plotly was an interactive platform that was used to help visualize the different covid factors used in this project. The two factors that were visualized through maps were gender infections and total percent of vaccinations. Two maps were created to show the states with the highest number of infections between men and women. For the state of California, it had the highest rate of infections for both men and women. Men were also more likely to get infected in Texas than women. In comparison, men and women likely to get infected equally in the states with the highest amount of cases.Another map was created to visualize the whole U.S to determine which states had the highest rate of fully caccinated people and the lowest rate of vaccinations.Based on the map we can determine that California and Oregon were some of the states that had the highest percent of vaccinations, while North Carolina had the lowest rate.
+![image](https://user-images.githubusercontent.com/92649982/162121346-adb1dc4f-25de-45b9-80eb-6e4de6214978.png)
+
+Another map was created to visualize the whole U.S to determine which states had the highest rate of fully vaccinated people and the lowest rate of vaccinations.Based on the map we can determine that California and Oregon were some of the states that had the highest percent of vaccinations, while North Carolina had the lowest rate.
+
 ![image](https://user-images.githubusercontent.com/92649982/162120866-90ee31a2-dc7a-4a83-bb98-ca1a42ecb1a8.png)
+
