@@ -1,5 +1,5 @@
 # CovidInfectionAnalysis
-A collaborative project looking into likelihood of infection between vaccinated and unvaccinated in the United States.
+A collaborative project looking into the likelihood of infection between vaccinated and unvaccinated in the United States.
 
 # Segment 1 Deliverable Presentation
 
@@ -14,7 +14,7 @@ Questions to be answered: Are certain populations more likely to be infected tha
 Communication Protocols: Our group name is Endless Knot. The members exchange information on Slack and document notes on Google Docs. Group meetings are held virtually on Zoom. We collaborate on our codes through GitHub, which include our repository (CovidInfectionAnalysis), branches, commits, and pull requests. 
 
 # Machine Learning Flowchart
-•	Data Wrangling: We checkedout the data quality, sorting, filtering using PYTHON. We cleaned by missing data, outliers, reshaping data, calculating. We removed many unnecessary columns. Find the null values- use dropna() • Convert strings to numbers.
+•	Data Wrangling: We checked out the data quality by sorting and filtering with PYTHON. We cleaned missing data and removed outliers. We omitted several unnecessary columns. We found the null values, used dropna() and converted strings to numbers.
 
 # Data Preprocessing
 •	Preparing data for machine learning 
@@ -27,23 +27,21 @@ Communication Protocols: Our group name is Endless Knot. The members exchange in
 # Data transformation
 
 •	Convert strings to numbers using pd.get_dummies
-•	Split the data into training and testing:  
+•	Split the data into training and testing 
 •	Split the data into training and testing using StandardScaler() and 
  X_train_scaled = X_scaler.transform(X_train)
  X_test_scaled = X_scaler.transform(X_test)
 
-
-
-•	We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning. We will focus on Regression models because we are using datae to make predictions in a contunuous form.  
+•	We tried different Machine learning algorithm: Since our data is labeled, we used Supervised learning. We focused on Regression models because we are using data to make predictions in a continuous form.  
 
 # Supervised learning and Models: 
 we used several models:
-* OLS model- Ordinary Least Squares (OLS)
+* Ordinary Least Squares (OLS)
 * Linear regression
 * SVM support vector machine 
-* ARIMA for Time series model
+* ARIMA for Time series 
 
-* OLS model- Ordinary Least Squares (OLS): can predict an output value with an acceptable error margin, based on a set of known input parameters. 
+* OLS model can predict an output value with an acceptable error margin, based on a set of known input parameters. 
 
 <img width="758" alt="Screen Shot 2022-04-02 at 12 17 49 AM" src="https://user-images.githubusercontent.com/91306158/161373275-b7a1e8b2-3695-45c0-9f47-286dd385e76f.png">
  
@@ -53,7 +51,7 @@ we used several models:
 
 
  * SVM support vector machine :
- SVM or Support Vector Machine is a linear model for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+ SVM or Support Vector Machine is a linear model used for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
 
 <img width="228" alt="Screen Shot 2022-04-02 at 12 26 41 AM" src="https://user-images.githubusercontent.com/91306158/161373350-4c9d81d2-6dac-4573-ab2e-608e800f2f2d.png">
 
