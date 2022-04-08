@@ -13,6 +13,9 @@ Questions to be answered: Are certain populations more likely to be infected tha
 
 Communication Protocols: Our group name is Endless Knot. The members exchange information on Slack and document notes on Google Docs. Group meetings are held virtually on Zoom. We collaborate on our codes through GitHub, which include our repository (CovidInfectionAnalysis), branches, commits, and pull requests. 
 
+# Dashboard / Presentation
+Access to our Dashboard can be found on our Google Slides presentation: https://docs.google.com/presentation/d/18PVo5fo_eoCjJ3DtpC3WBItMMb-tCJtpTyTDTP6P53A/edit#slide=id.g12328c81713_2_9
+
 # Machine Learning Flowchart
 •	Data Wrangling: We checked out the data quality by sorting and filtering with PYTHON. We cleaned missing data and removed outliers. We omitted several unnecessary columns. We found the null values, used dropna() and converted strings to numbers.
 
@@ -58,7 +61,7 @@ we used several models:
 
 
  * SVM support vector machine :
- SVM or Support Vector Machine is a linear model used for classification and regression problems. It can solve linear and non-linear problems and work well for many practical problems. 
+ SVM or Support Vector Machine is a linear model used for classification and regression problems. It can solve linear and non-linear problems and works well for many practical problems. 
 
 <img width="228" alt="Screen Shot 2022-04-02 at 12 26 41 AM" src="https://user-images.githubusercontent.com/91306158/161373350-4c9d81d2-6dac-4573-ab2e-608e800f2f2d.png">
 
