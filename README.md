@@ -17,6 +17,12 @@ Communication Protocols: Our group name is Endless Knot. The members exchange in
 •	Data Wrangling: We checked out the data quality by sorting and filtering with PYTHON. We cleaned missing data and removed outliers. We omitted several unnecessary columns. We found the null values, used dropna() and converted strings to numbers.
 
 # Data Preprocessing
+We ended up working with 3 datasets from the following sources: Covid Data Tracker-CDC, Covid19 cases by State -Johns Hopkins University and Genderscilab 
+### Preprocessing – we view/examine each csv file using Excel.
+
+### Data Processing:
+Using  Vlookup we convert the State abbreviation to full name, draw common ground- Primary key and mapped relationship using Entity Relationship Diagram (ERD)  and merged and analyze datasets using  SQL and Pandas/Jupyter Notebook.
+
 •	Preparing data for machine learning 
 •	Importing libraries: pandas, NumPy, seaborn, matplotlib, sklearn, train_test_split, r2_score, mean_squared_error, sklearn.datasets, statsmodels.tsa.arima.model
 
