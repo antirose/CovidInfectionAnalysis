@@ -95,3 +95,6 @@ Another map that was created was to visualize the amount of fully vaccinated peo
 
 ![image](https://user-images.githubusercontent.com/92649982/162120866-90ee31a2-dc7a-4a83-bb98-ca1a42ecb1a8.png)
 
+# Tableau - Data Visualization
+
+There were several graphs that were created with Tableau that allowed for easier visualization of the data. With the All Cases Bubble, it indicates that California and Texas had the highest rates of Covid cases for January and February 2021. The Deaths by Ethnicity Graph shows that New York had the highest mortality rates for the Asian, White, Latinx, and Black population. Lastly, the All Covid Cases graph breaks down all the fatalities in each ethnic background and includes the total of deaths.
