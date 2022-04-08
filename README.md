@@ -22,6 +22,7 @@ We ended up working with 3 datasets from the following sources: Covid Data Track
 
 ### Data Processing:
 Using  Vlookup we convert the State abbreviation to full name, draw common ground- Primary key and mapped relationship using Entity Relationship Diagram (ERD)  and merged and analyze datasets using  SQL and Pandas/Jupyter Notebook.
+![image](https://user-images.githubusercontent.com/93121665/162359819-5d884af5-ad74-4125-bcaf-fdd6636fab12.png)
 
 •	Preparing data for machine learning 
 •	Importing libraries: pandas, NumPy, seaborn, matplotlib, sklearn, train_test_split, r2_score, mean_squared_error, sklearn.datasets, statsmodels.tsa.arima.model
